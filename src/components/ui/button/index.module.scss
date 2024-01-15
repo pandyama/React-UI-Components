@@ -1,0 +1,112 @@
+.Primary {
+  background-color: #2f80ed;
+  color: white;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  appearance: none;
+  backface-visibility: hidden;
+  cursor: pointer;
+  height: 50px;
+  width: 130px;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 0px 30px;
+  margin: 5px;
+
+  &:hover {
+    background-color: #045ed4;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
+    opacity: 1;
+    transition-duration: 0.2s;
+  }
+
+  &:active {
+    background-color: #0049a8;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 3px 6px 0, rgba(0, 0, 0, 0.1) 0 0 10px 0,
+      rgba(0, 0, 0, 0.1) 0 1px 4px -1px;
+    transform: scale(0.98);
+  }
+
+  &.Danger {
+    background-color: #ed2f2f;
+
+    &:hover {
+      background-color: #b40909;
+      box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
+      opacity: 1;
+      transition-duration: 0.2s;
+    }
+
+    &:active {
+      background-color: #9c0606;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 3px 6px 0, rgba(0, 0, 0, 0.1) 0 0 10px 0,
+        rgba(0, 0, 0, 0.1) 0 1px 4px -1px;
+      transform: scale(0.98);
+    }
+  }
+}
+
+.Outline {
+  background-color: transparent;
+  color: black;
+  border-radius: 8px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  appearance: none;
+  backface-visibility: hidden;
+  cursor: pointer;
+  height: 50px;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 0px 30px;
+  margin: 5px;
+
+  &:hover {
+    background-color: #252525;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
+    opacity: 1;
+    transition-duration: 0.4s;
+  }
+
+  &:active {
+    background-color: #000000;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 3px 6px 0, rgba(0, 0, 0, 0.1) 0 0 10px 0,
+      rgba(0, 0, 0, 0.1) 0 1px 4px -1px;
+    transform: scale(0.98);
+  }
+
+  &.Danger {
+    border: 2px solid #ed2f2f;
+    color: #ed2f2f;
+
+    &:hover {
+      background-color: #b40909;
+      color: white;
+      border: 2px solid #b40909;
+      box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
+      opacity: 1;
+      transition-duration: 0.2s;
+    }
+
+    &:active {
+      background-color: #9c0606;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 3px 6px 0, rgba(0, 0, 0, 0.1) 0 0 10px 0,
+        rgba(0, 0, 0, 0.1) 0 1px 4px -1px;
+      transform: scale(0.98);
+    }
+  }
+}
