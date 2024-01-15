@@ -3,10 +3,9 @@
 </h1>
 
 ## Button Component
-![1](https://github.com/pandyama/React-UI-Components/blob/master/src/images/ButtonComponent.png)
-
 <kbd> <img src="https://github.com/pandyama/React-UI-Components/blob/master/src/images/ButtonComponent.png" alt="buttonComponent"> </kbd>
 
+---
 ## 🚀 Quick start
 
 1.  **Start developing.**
