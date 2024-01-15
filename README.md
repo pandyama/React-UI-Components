@@ -4,7 +4,8 @@
 
 ## Button Component
 ![1](https://github.com/pandyama/React-UI-Components/blob/master/src/images/ButtonComponent.png)
-<img src="https://github.com/pandyama/React-UI-Components/blob/master/src/images/ButtonComponent.png" alt="your-image-description" style=`border: 2px solid  gray;`>
+
+<img src="https://github.com/pandyama/React-UI-Components/blob/master/src/images/ButtonComponent.png" alt="buttonComponent" style="border: 1px solid  black;">
 
 ## 🚀 Quick start
 
