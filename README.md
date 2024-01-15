@@ -5,7 +5,7 @@
 ## Button Component
 ![1](https://github.com/pandyama/React-UI-Components/blob/master/src/images/ButtonComponent.png)
 
-<img src="https://github.com/pandyama/React-UI-Components/blob/master/src/images/ButtonComponent.png" alt="buttonComponent" style="border: 1px solid  black;">
+<kb> <img src="https://github.com/pandyama/React-UI-Components/blob/master/src/images/ButtonComponent.png" alt="buttonComponent"> </kbd>
 
 ## 🚀 Quick start
 
