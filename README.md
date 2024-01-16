@@ -2,9 +2,11 @@
   React UI Components app using Gatsby
 </h1>
 
-## Button Component
+Check `src/images` folder for screenshots
 
-<kbd> <img src="https://github.com/pandyama/React-UI-Components/blob/master/src/images/ButtonComponent.png" alt="buttonComponent"> </kbd>
+## Currently Available Components
+- Button
+- TextInput
 
 ---
 ## 🚀 Quick start
