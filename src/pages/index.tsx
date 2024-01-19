@@ -2,6 +2,7 @@ import * as React from "react";
 import type { PageProps } from "gatsby";
 import Button from "../components/ui/button";
 import TextInput from "../components/ui/textInput";
+import TextAreaInput from "../components/textAreaInput";
 
 const mainStyles = {
   display: "flex",
@@ -75,6 +76,15 @@ const IndexPage: React.FC<PageProps> = () => {
         <TextInput label="email" placeholder="Enter Email"></TextInput>
         <br />
         <TextInput label="password" placeholder="Enter Password"></TextInput>
+      </div>
+      <hr />
+      <div style={mainStyles as React.CSSProperties}>
+        <h3 style={header as React.CSSProperties}>Text Area Input Component</h3>
+        <br />
+        <TextAreaInput label="content" size="Large">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </TextAreaInput>
       </div>
     </>
   );
