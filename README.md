@@ -7,6 +7,7 @@ Check `src/images` folder for screenshots
 ## Currently Available Components
 - Button
 - TextInput
+- TextAreaInput
 
 ---
 ## 🚀 Quick start
